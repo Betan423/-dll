@@ -5,7 +5,7 @@
 #define TYPE float
 
 // 定義目標 exe 的記憶體位址
-#define X_ADDRESS 0x1F16276249C
+#define X_ADDRESS 0x?????    //將地址添加在這邊
 
 // 定義每次寫入的間隔時間，單位是毫秒
 #define INTERVAL 100 // 減少檢測次數，避免占用過多 CPU
