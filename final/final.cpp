@@ -7,7 +7,7 @@
 #define TYPE float
 
 // 定義目標 exe 的記憶體位址（預設值）
-DWORD_PTR g_x_address = 0x1F16276249C;
+DWORD_PTR g_x_address = 0x0400000;
 
 // 定義每次寫入的間隔時間，單位是毫秒
 #define INTERVAL 100 // 減少檢測次數，避免占用過多 CPU
